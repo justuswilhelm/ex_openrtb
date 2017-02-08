@@ -1,0 +1,20 @@
+{
+  "bid": [
+    {
+      "id": "24195efda36066ee21f967bc1de14c82db841f07",
+      "impid": "24195efda36066ee21f967bc1de14c82db841f07",
+      "price": 1.028428,
+      "adid": "52a12b5955314b7194a4c9ff",
+      "nurl": "http://ads.com/win/52a12b5955314b7194a4c9ff?won=${AUCTION_PRICE}",
+      "adm": "<iframe />",
+      "adomain": [
+        "ads.com"
+      ],
+      "cid": "52a12b5955314b7194a4c9ff",
+      "crid": "52a12b5955314b7194a4c9ff_1386294105",
+      "attr": [],
+      "dealid": "DX-1985-010A"
+    }
+  ],
+  "seat": "42"
+}

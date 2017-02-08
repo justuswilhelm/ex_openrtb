@@ -1,0 +1,25 @@
+defmodule ExOpenRTB.Bid do
+  defstruct [
+    :id,
+    :impid,
+    :price,
+    :adid,
+    :nurl,
+    :adm,
+    :adomain,
+    :bundle,
+    :iurl,
+    :cid,
+    :crid,
+    :cat,
+    :attr,
+    :api,
+    :protocol,
+    :qagmediarating,
+    :dealid,
+    :h,
+    :w,
+    :exp,
+    :ext,
+  ]
+end

@@ -1,0 +1,19 @@
+defmodule ExOpenRTB.BidTest do
+  use ExUnit.Case, async: true
+  import ExOpenRTB.Test
+
+  test_decode %ExOpenRTB.Bid{
+    id: "1",
+    impid: "1",
+    price: 0.751371,
+    adid: "52a5516d29e435137c6f6e74",
+    nurl: "http://ads.com/win/112770_1386565997?won=${AUCTION_PRICE}",
+    adm: "<html/>",
+    adomain: ["ads.com"],
+    iurl: "http://ads.com/112770_1386565997.jpeg",
+    cid: "52a5516d29e435137c6f6e74",
+    crid: "52a5516d29e435137c6f6e74_1386565997",
+    dealid: "example_deal",
+    attr: [],
+  }, :bid
+end
